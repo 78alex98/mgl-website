@@ -1,0 +1,253 @@
+body {
+    background-color: white;
+    font-family: verdana, Arial;
+    margin: 0px;
+}
+
+footer {
+    background-color: gray;
+    padding: 5px;
+    display: block;
+    clear: both;
+    text-align: center;
+    width: 100dvw;
+    position: static;
+    bottom: 0px;
+
+}
+
+/* For nav bar */
+
+.navbar{
+    border: solid;
+}
+
+.navbar a:hover {
+    background-color: darkgray;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+/* For index.php */
+
+.index-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.index-desc {
+    text-align: center;
+    font-size: 25px;
+}
+
+.index-desc a {
+    text-decoration: none;
+    color:red;
+}
+
+/* For Info */
+
+.info-content p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.info-buttons button{
+    margin: 10px;
+    background-color: lightblue;
+    border: 1px solid black;
+    font-weight: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+/* For Gamelist */
+
+.gamelist-message {
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gamelist-message a {
+    text-decoration: none;
+    color:red;
+}
+
+/* For Catalog */
+
+.title-format {
+    margin: 10px;
+}
+
+.compare-msg {
+    margin: 10px;
+}
+
+.contain-form {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+.form-head {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-content {
+   
+    padding: 10px;
+    width: 280;
+    height: auto;
+}
+
+.form-content input {
+    margin: 5px;
+    outline: none;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.form-content select {
+    margin: 5px;
+    outline: none;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.form-content textarea {
+    margin: 5px;
+    outline: none;
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.form-button-contain {
+    margin: 5px;
+    text-align: left;
+}
+
+.form-button-contain button {
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.table-format{
+    border-collapse: collapse;
+    margin: 25px 10px;
+    border: 2px solid black;
+    background-color: gray;
+    min-width: 400px;
+    box-shadow: 0 0 5px blue;
+}
+
+.table-format th {
+    border: 1px solid black;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.table-format td {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+.table-format td a {
+    text-decoration: none;
+    color:blue;
+}
+
+/* For Reviews.php */
+
+.review-block {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    background-color: lightblue;
+    width: 45%;
+    height: 300px;
+    padding: 25px;
+    margin: 10px;
+    float: left;
+}
+
+.review-title {
+    color: black;
+
+    /*text-shadow: 0px 0px 2px blue;
+    */
+}
+
+.review-author {
+    color: black;
+}
+
+.review-content {
+    color: black;
+}
+
+.review-creation {
+    color: black;
+}
+
+.review-creation a {
+    text-decoration: none;
+    color:blue;
+}
+
+.contain-form-signup {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 350px;
+    background-color: lightblue;
+}
+
+.form-head-signup {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-content-signup {
+    padding: 10px;
+    width: 340;
+    height: auto;
+}
+
+.form-content-signup input {
+    margin: 5px;
+    outline: none;
+    height: 25px;
+    border: 1px solid black;
+}
